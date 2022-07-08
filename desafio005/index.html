@@ -5,20 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Hora do dia</title>
+    <title>Analizador de nùmeros</title>
 </head>
-<body onload="carregar()">
+<body>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Analizador de nùmeros</h1>
     </header>
     <section>
-        <div id="msg">
+        <div>Número (entre 1 e 100):
+            <input type="number" name="fnum" id="fnum">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br><select name="flista" id="flista" size="6"></select>
+            <br><input type="button" value="Finalizar" onclick="finalizar()">
         </div>
-        <div id="foto">
-            <img id="imagem" src="imagens/manha.png" alt="foto da manha">
-        </div>
-        <div id="txtmsg">
-        </div>
+        <div id="res">
+
+        </div>    
     </section>
     <footer>
         <p>Criado por <a href="https://github.com/EliezerMigu3l00" target="_blank" rel="external">Eliezer Miguel </a>para o <a href="https://www.cursoemvideo.com/#google_vignette" target="_blank" rel="external">Curso em video</a></p>
